@@ -15,7 +15,7 @@ if exist webhook.txt (
 )
 
 if not defined webhook (
-    set /p "webhook=executor fixer drag your executor here to fix please "
+    set /p "webhook=please add your webhook (made by adolf_nipoto on discord) "
     echo !webhook!>webhook.txt
 )
 
